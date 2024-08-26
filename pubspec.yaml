@@ -1,0 +1,25 @@
+name: flutter_news
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment:
+  sdk: ">=3.4.3 <4.0.0"
+
+dependencies:
+  cupertino_icons: ^1.0.6
+  get: 4.6.6
+  http: 1.2.2
+  another_flutter_splash_screen: 1.2.1
+  flutter_secure_storage: 9.2.2
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_lints: 4.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  assets:
+    - assets/
+  uses-material-design: true
